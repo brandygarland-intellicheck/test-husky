@@ -2,6 +2,8 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 
-npx prettier . --write
-git add .
-npm run lint
+npx lint-staged
+
+# npx prettier . --write
+# git add .
+# npm run lint
